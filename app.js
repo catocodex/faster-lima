@@ -11,7 +11,9 @@ const gps = new GPS();
 
 const parser = port.pipe(new SerialPortParser());
 
-function getAddressInformation(latitude, longitude) {}
+//function getAddressInformation(latitude, longitude) {}
 
-gps.on("data", async data => {});
-parser.on("data", data => {});
+//gps.on("data", async data => {});
+parser.on("data", data => {
+    console.log(data);
+});
