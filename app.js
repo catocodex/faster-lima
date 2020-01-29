@@ -35,16 +35,17 @@ function getAddressInformation(latitude, longitude) {
 gps.on("data", async data => {
     if(data.type == "GGA") {
         if(data.quality != null){
-            try{
-                let address = await getAddress(data.lat.toFixed(2), data.lon.toFixed(2));
-                console.log(address.Label);
-            } catch (e) {
-                console.log(e);
-            }
+            // try{
+            //     let address = await getAddress(data.lat.toFixed(2), data.lon.toFixed(2));
+            //     console.log(address.Label);
+            // } catch (e) {
+            //     console.log(e);
+            // }
+            console.log(data.latitude.toFixed(2) + " , " + data.longitude.toFixed(2));
         }
     }
 });
 
-// parser.on("data", data => {
-//     console.log(data);
-// }); 
+parser.on("data", data => {
+    console.log(data);
+}); 
