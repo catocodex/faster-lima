@@ -3,7 +3,7 @@ const SerialPortParser = require("@serialport/parser-readline");
 const GPS = require("gps");
 const Request = require("request-promise");
 
-const port = new SerialPort("/dev/ttyS0", { baudRate: 9600 });
+const port = new SerialPort("/dev/ttyAMA0", { baudRate: 9600 });
 const gps = new GPS();
 
 //const APP_ID = "HERE_APP_ID";
