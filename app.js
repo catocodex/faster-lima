@@ -21,7 +21,7 @@ gps.on("data", data => {
             console.log(data);
         }
     }
-})
+});
 
 parser.on("data", data => {
     console.log(data);
