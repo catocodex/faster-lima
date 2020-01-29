@@ -1,3 +1,4 @@
+
 [
   {
     "name": "AT-AT",
@@ -9,7 +10,7 @@
     "name": "Imperial Speeder Bike",
     "model": "74-Z speeder bike",
     "manufacturer": "Aratech Repulsor Company",
-    "vehicle_class": "speeder"
+    "vehicle_class": "speeder" 
   },
   {
     "name": "Sith speeder",
