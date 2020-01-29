@@ -14,6 +14,15 @@ const parser = port.pipe(new SerialPortParser());
 //function getAddressInformation(latitude, longitude) {}
 
 //gps.on("data", async data => {});
+
+gps.on("data", data => {
+    if(data.type == "GGA") {
+        if(data.quality != null){
+            console.log(data);
+        }
+    }
+})
+
 parser.on("data", data => {
     console.log(data);
-});
+}); 
