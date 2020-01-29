@@ -1,0 +1,8 @@
+{
+  "sensorId": "Faster-Lima-GPS",
+  "secretKey": "RIBAUUJXCT9HSXW",
+  "debug": true,
+  "provider": "https://nodes.devnet.iota.org",
+  "endpoint": "https://us-central1-datamarket-617e1.cloudfunctions.net/newData",
+  "serverUrl": "https://swapi.co/api/vehicles/"
+}
