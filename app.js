@@ -45,6 +45,6 @@ gps.on("data", async data => {
     }
 });
 
-parser.on("data", data => {
-    console.log(data);
-}); 
+// parser.on("data", data => {
+//     console.log(data);
+// }); 
