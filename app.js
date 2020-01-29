@@ -32,7 +32,7 @@ function getAddressInformation(latitude, longitude) {
 
 //gps.on("data", async data => {});
 
-gps.on("data", data => {
+gps.on("data", async data => {
     if(data.type == "GGA") {
         if(data.quality != null){
             try{
