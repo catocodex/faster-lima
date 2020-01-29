@@ -16,8 +16,8 @@ function getAddressInformation(latitude, longitude) {
     return Request({
         "uri": "https://reverse.geocoder.api.here.com/6.2/reversegeocode.json",
         "qs": {
-            "app_id": "4GqSZVAsHbtzpGMsSjcp",
-            "app_code": "JF5Cc3uvR-Aabh5-RBKD8VtSkKLhwlwQF4SLFQ43n0A",
+            "app_id": "cNEFwIvdrVqzHwYjmpl6",
+            "app_code": "bF1MAacCqPyyQT4wLwCPEWfkpVlthEa3OBriQIwO7QQ",
             "mode": "retrieveAddress",
             "prox": latitude + "," + longitude
         },
