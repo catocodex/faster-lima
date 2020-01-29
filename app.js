@@ -37,7 +37,7 @@ gps.on("data", data => {
         if(data.quality != null){
             try{
                 let address = await getAddress(data.lat.toFixed(2), data.lon.toFixed(2));
-                console.log(address);
+                console.log(address.Label);
             } catch (e) {
                 console.log(e);
             }
